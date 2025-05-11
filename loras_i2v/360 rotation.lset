@@ -1,0 +1,1 @@
+{"loras": ["360_epoch20.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"woman\"\nThe video shows a {Subject}. The {Subject} performs a r0t4tion 360 degrees rotation.\n", "full_prompt": true}

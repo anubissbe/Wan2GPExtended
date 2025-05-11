@@ -1,0 +1,1 @@
+{"loras": ["puppy_50_epochs.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"man\"\nThe video begins with a close-up of a {Subject}. The background changes and then the pu11y puppy effect begins. The {Subject} is now surrounded by many puppies. He pets the puppies. \n", "full_prompt": true}

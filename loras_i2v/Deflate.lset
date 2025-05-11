@@ -1,0 +1,1 @@
+{"loras": ["deflate_20_epochs.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"man\"\nThe video opens with a {Subject}. As the video progresses, the {Subject} begins to d3d1at3 deflate it, gradually shrinking and losing shape, eventually flattening completely into a lifeless, deflated mass on the ground. \n\n", "full_prompt": true}

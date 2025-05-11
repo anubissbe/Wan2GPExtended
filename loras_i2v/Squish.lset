@@ -1,0 +1,1 @@
+{"loras": ["squish_18.safetensors"], "loras_mult": "1", "prompt": "! {Subject}=\"man\"\nIn the video, a miniature {Subject} is presented. The {Subject} is held in a person's hands. The person then presses on the {Subject} , causing a sq41sh squish effect. The person keeps pressing down on the {Subject} , further showing the sq41sh squish effect.", "full_prompt": true}

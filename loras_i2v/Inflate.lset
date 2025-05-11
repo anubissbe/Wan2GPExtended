@@ -1,0 +1,1 @@
+{"loras": ["inflate_20_epochs.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"man\"\nOne {Subject} is standing,  then infl4t3 inflates the {Subject} . The {Subject} starts expanding into a giant, inflated figure.", "full_prompt": true}

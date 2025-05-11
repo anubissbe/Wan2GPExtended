@@ -1,0 +1,6 @@
+Many thanks to :
+- Remade for most of the Loras in this pack:
+https://civitai.com/user/Remade
+
+- Y_AI_N (flying Lora)
+https://civitai.com/user/Y_AI_N
