@@ -1,0 +1,1 @@
+{"loras": ["bride_50_epochs.safetensors"], "loras_mult": "", "prompt": "! {subject}=\"man\"\nThe video starts with a close-up of a smiling {subject} in a blue button-down shirt, then the 8r1d3 bride effect happens. The {subject} is now in a white lace wedding dress, smiling, with a bouquet of white flowers in front of a blurred wooden background.\n\n", "full_prompt": true}

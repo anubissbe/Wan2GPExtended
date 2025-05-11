@@ -1,0 +1,1 @@
+{"loras": ["Spinning V2.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"girl\" : {Location}=\"a road\"\nThe video shows a {Subject} standing in {Location}. The {Subject} performs a \u539f\u5730\u65cb\u8f6c 360 degrees rotation.\n", "full_prompt": true}

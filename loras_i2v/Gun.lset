@@ -1,0 +1,1 @@
+{"loras": ["gun_20_epochs.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"man\" : {Pronoun}=\"he\"\nA {Subject} looks intently off-camera and the camera zooms out as {Pronoun} p5lls g4un pulls a gun and starts shooting.\n", "full_prompt": true}

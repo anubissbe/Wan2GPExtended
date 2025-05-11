@@ -33,7 +33,7 @@ import tempfile
 import atexit
 import shutil
 import glob
-
+from long_video_tab import create_long_video_tab
 from tqdm import tqdm
 import requests
 global_queue_ref = []
@@ -5168,13 +5168,14 @@ def create_demo():
             with gr.Tab("Video Mask Creator", id="video_mask_creator") as video_mask_creator:
                 from preprocessing.matanyone  import app as matanyone_app
                 vmc_event_handler = matanyone_app.get_vmc_event_handler()
-
                 matanyone_app.display(main_tabs, model_choice, video_guide, video_mask, video_prompt_type_video_trigger)
             if not args.lock_config:
                 with gr.Tab("Downloads", id="downloads") as downloads_tab:
                     generate_download_tab(lset_name, loras_choices, state)
                 with gr.Tab("Configuration", id="configuration"):
                     generate_configuration_tab(state, main, header, model_choice)
+            with gr.Tab("Long Video Generation", id="long_video_gen"):
+                long_video_generator = create_long_video_tab(wan_model, state)
             with gr.Tab("About"):
                 generate_about_tab()
 
@@ -5195,13 +5196,13 @@ if __name__ == "__main__":
     if args.listen:
         server_name = "0.0.0.0"
     if len(server_name) == 0:
-        server_name = os.getenv("SERVER_NAME", "localhost")      
+        server_name = os.getenv("SERVER_NAME", "localhost")
     demo = create_demo()
     if args.open_browser:
-        import webbrowser 
+        import webbrowser
         if server_name.startswith("http"):
-            url = server_name 
+            url = server_name
         else:
-            url = "http://" + server_name 
+            url = "http://" + server_name
         webbrowser.open(url + ":" + str(server_port), new = 0, autoraise = True)
     demo.launch(server_name=server_name, server_port=server_port, share=args.share, allowed_paths=[save_path])

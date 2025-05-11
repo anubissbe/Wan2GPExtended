@@ -1,0 +1,1 @@
+{"loras": ["muscle_18_epochs.safetensors"], "loras_mult": "", "prompt": "! {Subject}=\"A woman\" : {Possessive}=\"her\"\n{Subject} speaking into a microphone, then t2k1s takes off clothes revealing a lean muscular body and shows off muscles, pointing {Possessive} index finger.\n\n", "full_prompt": true}
