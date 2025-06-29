@@ -15,7 +15,7 @@ imageio-ffmpeg
 gradio==5.23.0   
 numpy>=1.23.5,<2
 einops
-moviepy==1.0.3
+moviepy==2.2.1
 mmgp==3.4.4
 peft==0.14.0
 mutagen
