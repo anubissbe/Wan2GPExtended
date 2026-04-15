@@ -22,7 +22,7 @@ mutagen
 pydantic==2.10.6
 decord
 onnxruntime-gpu
-rembg[gpu]==2.0.65
+rembg[gpu]==2.0.75
 matplotlib
 timm
 segment-anything
