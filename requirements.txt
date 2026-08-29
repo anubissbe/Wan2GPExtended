@@ -19,7 +19,7 @@ moviepy==1.0.3
 mmgp==3.4.4
 peft==0.14.0
 mutagen
-pydantic==2.10.6
+pydantic==2.13.5
 decord
 onnxruntime-gpu
 rembg[gpu]==2.0.65
